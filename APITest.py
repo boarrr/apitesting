@@ -7,12 +7,8 @@ import datetime
 # URL of your GTFS Realtime feed
 url = "https://api.nationaltransport.ie/gtfsr/v2/gtfsr"
 
-# URL of Vehicle Feed
-url2 = "https://api.nationaltransport.ie/gtfsr/v2/Vehicles"
-
 hdr = {
   # Request headers
-
   'Cache-Control': 'no-cache',
   'x-api-key': 'c582cb4619ce4e938cd74690feda0df0',
 }
